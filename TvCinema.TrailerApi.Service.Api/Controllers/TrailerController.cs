@@ -5,7 +5,7 @@ using TvCinema.TrailerApi.Service.Application.Interfaces;
 namespace TvCinema.TrailerApi.Service.Api.Controllers
 {
     [ApiController]
-    [Route("api/rating")]
+    [Route("api/trailer")]
     public class TrailerController : ControllerBase
     {
         private readonly ITrailerService _trailerService;
